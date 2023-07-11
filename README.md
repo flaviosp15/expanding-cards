@@ -12,7 +12,7 @@ I built this project to improve my skills in HTML, CSS and Javascript.
 
 Access the page by the link: [Expanding Cards](https://flaviosp15.github.io/expanding-cards/)
 
-![](https://github.com/flaviosp15/preview-card-component/blob/main/demo/expanding-cards-demo.gif)
+![](https://github.com/flaviosp15/expanding-cards/blob/main/demo/expanding-cards-demo.gif)
 
 ## 🧠 Takeaways
 
