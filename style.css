@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #eee;
+}
+
+.container {
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+  gap: 1rem;
+  padding: 8rem 3rem;
+}
+
+.card {
+  display: flex;
+  flex: 0 1 90px;
+  position: relative;
+  border-radius: 50px;
+  overflow: hidden;
+  transition: flex 0.4s ease-in;
+  cursor: pointer;
+}
+
+.card::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card.active {
+  flex: 1 1 0;
+  cursor: initial;
+}
+
+.card > img {
+  display: block;
+  object-fit: cover;
+}
+
+.card > span {
+  position: absolute;
+  bottom: 50px;
+  left: 40px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.4s;
+  z-index: 1;
+}
+
+.card.active > span {
+  opacity: 1;
+}
