@@ -1,6 +1,6 @@
 # Expanding Cards
 
-I built this project to improve my skills in HTML, CSS and Javascript.
+I built this project to show expand effect.
 
 ## 🛠️ Built With
 
